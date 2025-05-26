@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Saad Sohail</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link id="favicon" rel="icon" type="image/png" href="./assets/images/favicon.png">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-code"></i>Saad</a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#writing">Writing</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+        <div class="content">
+            <h2>Hi There, <br> I'm <span>Saad Sohail</span></h2>
+            <p>Engineering Elegant Code for <span class="typing-text"></span></p>
+            <a href="#about" class="btn"><span>About Me</span> <i class="fas fa-arrow-circle-down"></i></a>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li><a href="https://twitter.com" class="fab fa-twitter" title="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/itz_saadi_195?igsh=MTZrdHFnNnIwMnhoaA==" class="fab fa-instagram" title="Instagram"></a></li>
+                    <li><a href="mailto:saadsohail1918@gmail.com" class="fas fa-envelope" title="Email"></a></li>
+                    <li><a href="https://www.linkedin.com/in/saad-sohail-9018a8302/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bw2RoYyGQSG2QEptWAhnfLQ%3D%3D" class="fab fa-linkedin" title="LinkedIn"></a></li>
+                    <li><a href="https://github.com/Saadi195?tab=repositories" class="fab fa-github" title="GitHub"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="image">
+            <img draggable="false" src="./assets/images/image.jpg" alt="Profile">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+        <div class="row">
+            <div class="image">
+                <img draggable="false" src="./assets/images/Aboutme.jpg" alt="About">
+            </div>
+            <div class="content">
+                <h3>I'm Saad Sohail</h3>
+                <span class="tag">Computer Science Student</span>
+                <p>I'm a 4th-semester Computer Science student from Attock, Punjab, studying at Bahria University, Islamabad. I'm passionate about web development and AI/ML, currently enrolled in the 100 Days of Code (Python) course. I enjoy turning ideas into real-world tech solutions through elegant code and creative problem-solving.</p>
+                <div class="box-container">
+                    <div class="box">
+                        <p><span>email:</span> saad.sohail@example.com</p>
+                        <p><span>place:</span> Attock, Pakistan</p>
+                    </div>
+                </div>
+                <a href="#" class="btn resume-btn"><span>Resume</span> <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+        <div class="container">
+            <div class="row" id="skillsContainer"></div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading"><i class="fas fa-project-diagram"></i> Projects <span>Made</span></h2>
+        <div class="box-container">
+            <div class="box tilt">
+                <img draggable="false" src="./assets/images/weatherapp.webp" alt="Weather Application">
+                <div class="content">
+                    <div class="tag"><h3>Weather Application</h3></div>
+                    <div class="desc">
+                        <p>A desktop-based weather app fetching real-time data using a third-party API, displaying temperature, humidity, and conditions.</p>
+                        <div class="btns">
+                            <a href="https://github.com/Saadi195/WEATHERAPP_GUI_C-_WINFORMS" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                            <a href="https://github.com/Saadi195/WEATHERAPP_GUI_C-_WINFORMS" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img draggable="false" src="./assets/images/gym-management-system.jpg" alt="Gym Management System">
+                <div class="content">
+                    <div class="tag"><h3>Gym Management System</h3></div>
+                    <div class="desc">
+                        <p>A full-stack web app for gym staff to manage members, track subscriptions, and log attendance.</p>
+                        <div class="btns">
+                            <a href="https://github.com/Saadi195/Social-Network-Influence-Analyzer" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                            <a href="https://github.com/Saadi195/Social-Network-Influence-Analyzer" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box tilt">
+                <img draggable="false" src="./assets/images/pizzaapp.png" alt="Pizza Ordering System">
+                <div class="content">
+                    <div class="tag"><h3>Pizza Ordering System</h3></div>
+                    <div class="desc">
+                        <p>A console-based Python app for selecting pizzas, customizing toppings, and generating bills.</p>
+                        <div class="btns">
+                            <a href="https://github.com/Saadi195/Python-Pizza-Order" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                            <a href="https://github.com/Saadi195/Python-Pizza-Order" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="writing" id="writing">
+        <h2 class="heading"><i class="fas fa-book"></i> Writing & <span>Creative Works</span></h2>
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <h3>Books vs. Movies: Why Reading Will Always Win</h3>
+                    <p><em>“Reading a book allows you to actively create worlds in your head rather than merely absorbing words...”</em></p>
+                    <div class="essay-content">
+                        <p>Imagine reading a book that takes you to a different world while relaxing in your favorite chair with a hot cup of tea. Compare that to watching breathtaking scenes unfold on a huge screen in front of you while munching on popcorn in a dimly lit theater. Both experiences are appealing, but the question of whether movies or books are better has long been debated. Many contend that reading books offers a richer, more immersive experience than watching movies, even though both media offer distinctive storytelling experiences. Let's examine why reading frequently has the advantage.</p>
+                        <p>Reading a book allows you to actively create worlds in your head rather than merely absorbing words. Your imagination is prompted to conjure images of people, places, and events by each description. The experience is extremely personal because of this mental involvement. Reading about a character's emotions, for example, may cause you to remember similar emotions of your own, forging a deep connection. Movies, on the other hand, offer the director's vision with less opportunity for individual interpretation. Even though movies can have amazing visuals, they frequently restrict viewers' ability to use their imagination.</p>
+                        <p>Books have the advantage of exploring the complexities of characters' motivations and thoughts. Readers are given a thorough grasp of the complexity of the characters through internal monologues and in-depth backstories. Empathy and a closer emotional connection are fostered by this depth. Time constraints force movies to prioritize action sequences, sometimes at the expense of subtle character development. For instance, a film adaptation may distill a protagonist's internal conflict into a short montage, potentially diminishing the character's depth, while a novel may examine this journey over multiple chapters.</p>
+                        <p>You can read at your own pace. You can pause to consider the themes of the story, reread parts for clarity, or stay on particularly moving passages. This control enables a customized experience and improves personal engagement. However, movies follow a set plot that may not be to every person's taste. A sense of being hurried through the narrative or missing subtleties can occasionally result from this set tempo.</p>
+                        <p>Our visual and auditory senses are stimulated by movies, but our cognitive processes are more strongly stimulated by reading. Active mental engagement is necessary for decoding text, picturing scenes, and interpreting metaphors, and it can improve brain function and connectivity. Reading has been linked to increased vocabulary, concentration, and analytical abilities, according to studies. Despite being entertaining, watching movies is a more passive activity that doesn't provide the same mental challenge.</p>
+                        <p>In order to conform to the cinematic format, some aspects of books are frequently changed or left out when they are turned into films. Subtle themes or subplots that were essential to the original story may be lost as a result. Because film constraints sometimes require changes that change the essence of the story, readers may feel that the film does not do the book justice. For example, a movie adaptation of a novel may simplify or eliminate a complex political subplot, resulting in a less complex narrative. A greater emotional investment in the plot and its characters is frequently the result of the time commitment needed to read a book. It is possible to gradually develop empathy and attachment by spending hours immersed in a book. Movies can provoke intense emotions due to their brief duration, but they frequently lack the sustained engagement that strengthens emotional bonds.</p>
+                        <p>Both films and books have advantages and suit various tastes and circumstances. But the depth of character exploration, the active use of the imagination, and the immersive quality of reading frequently make for a more fulfilling experience. Movies provide both visual and aural storytelling, but they are unable to completely replace the intimate experience that reading a book provides. The next time you're debating whether to read a book or see the movie adaptation, think about the special pleasures of turning the pages and letting your imagination run wild.</p>
+                    </div>
+                    <button class="btn read-more"><span>Read More</span> <i class="fas fa-arrow-down"></i></button>
+                    <button class="btn read-less" style="display: none;"><span>Read Less</span> <i class="fas fa-arrow-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hobbies" id="hobbies">
+        <h2 class="heading"><i class="fas fa-heart"></i> Hobbies & <span>Interests</span></h2>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h3>Music & Walks</h3>
+                    <p>I enjoy 8 km walks paired with music to unwind and spark coding ideas.</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h3>Gaming & Tech Exploration</h3>
+                    <p>I love strategy games and exploring gadgets, embedded systems, and automation.</p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h3>Fitness & Reading</h3>
+                    <p>Fitness and reading about tech and self-improvement keep me disciplined and inspired.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading"><i class="fas fa-envelope"></i> Get in <span>Touch</span></h2>
+        <div class="container">
+            <div class="content">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <div class="field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="message">
+                            <i class="fas fa-comment-alt"></i>
+                            <textarea name="message" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">Submit <i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Saad's Portfolio</h3>
+                <p>Thank you for visiting my portfolio. Connect with me for collaborations or tech discussions!</p>
+                <div class="share">
+                    <a href="https://twitter.com" class="fab fa-twitter" title="Twitter"></a>
+                    <a href="https://www.instagram.com/itz_saadi_195?igsh=MTZrdHFnNnIwMnhoaA==" class="fab fa-instagram" title="Instagram"></a>
+                    <a href="mailto:saadsohail1918@gmail.com" class="fas fa-envelope" title="Email"></a>
+                    <a href="https://www.linkedin.com/in/saad-sohail-9018a8302/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bw2RoYyGQSG2QEptWAhnfLQ%3D%3D" class="fab fa-linkedin" title="LinkedIn"></a>
+                    <a href="https://github.com/Saadi195?tab=repositories" class="fab fa-github" title="GitHub"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#writing">Writing</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i>saad.sohail@example.com</p>
+                <p><i class="fas fa-map"></i>Attock, Pakistan</p>
+            </div>
+        </div>
+        <div class="credit">Designed by <a href="#">Saad Sohail</a></div>
+    </footer>
+
+    <a href="#home" class="fas fa-arrow-up" id="scroll-top"></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
